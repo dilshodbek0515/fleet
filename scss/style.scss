@@ -1,0 +1,24 @@
+@import "./reset";
+
+@import "./varible";
+
+@import "./header";
+
+@import "./main";
+
+@import "./carusel";
+
+@import "./fleet";
+
+@import "./cards";
+
+@import "./footer";
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: aqua;
+}
