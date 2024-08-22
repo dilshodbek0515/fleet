@@ -65,6 +65,12 @@
                 transition: .5s;
                 cursor: pointer;
                 color: white;
+
+                &:hover {
+                    background: none;
+                    color: #3B71FE;
+                    border: 1px solid #3B71FE;
+                }
             }
         }
     }
